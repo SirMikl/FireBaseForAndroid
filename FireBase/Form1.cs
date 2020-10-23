@@ -18,6 +18,7 @@ namespace FireBase
     public partial class Form1 : Form
     {
         DataTable dt = new DataTable();
+        //добавлен комментарий
         IFirebaseConfig config = new FirebaseConfig 
         { 
             AuthSecret = "lmVqXev9VDCZgrABb67BIKr8ECoKcguhXevBQEBa",
